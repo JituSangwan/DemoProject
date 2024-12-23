@@ -19,6 +19,8 @@ class MainViewModel(private val repository: Repository) : ViewModel() {
     val movies: LiveData<PopularMovies>
         get() = repository.movies
 
+    //jsgjvswhbgilejhlezirhd
+    //njdfgjwnjzrgbjer,z
     init {
         viewModelScope.launch(Dispatchers.IO) {
             repository.getUserAlbum()
