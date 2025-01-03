@@ -1,4 +1,4 @@
-package com.example.retromvvm2
+package com.example.democicd
 
 import org.junit.Test
 
